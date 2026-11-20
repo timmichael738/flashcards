@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "decks": [
+    {
+      "id": "kotlin-basics",
+      "title": "Kotlin Basics",
+      "description": "Core language features every Kotlin developer uses daily.",
+      "color": "purple",
+      "cards": [
+        { "front": "Keyword for a read-only variable", "back": "val" },
+        { "front": "Keyword for a mutable variable", "back": "var" },
+        { "front": "Operator that returns a default when the left side is null", "back": "?: (Elvis operator)" },
+        { "front": "Operator that calls a member only if the receiver is not null", "back": "?. (safe call)" },
+        { "front": "Class that auto-generates equals, hashCode, toString and copy", "back": "data class" },
+        { "front": "Declares a singleton in one line", "back": "object" },
+        { "front": "Restricts a class hierarchy to a known set of subclasses", "back": "sealed class / interface" },
+        { "front": "Scope function that returns the receiver after configuring it", "back": "apply" },
+        { "front": "Scope function that returns the lambda result, receiver as `it`", "back": "let" },
+        { "front": "Function that can pause without blocking a thread", "back": "suspend fun" },
+        { "front": "Cold asynchronous stream of values", "back": "Flow" },
+        { "front": "Adds a function to an existing type without inheritance", "back": "Extension function" },
+        { "front": "Delegate that computes a value on first access", "back": "by lazy" },
+        { "front": "Expression form of a switch statement", "back": "when" }
+      ]
+    },
+    {
+      "id": "world-capitals",
+      "title": "World Capitals",
+      "description": "Match countries with their capital cities.",
+      "color": "teal",
+      "cards": [
+        { "front": "Canada", "back": "Ottawa" },
+        { "front": "Australia", "back": "Canberra" },
+        { "front": "Brazil", "back": "Brasília" },
+        { "front": "Japan", "back": "Tokyo" },
+        { "front": "Kenya", "back": "Nairobi" },
+        { "front": "Turkey", "back": "Ankara" },
+        { "front": "New Zealand", "back": "Wellington" },
+        { "front": "Morocco", "back": "Rabat" },
+        { "front": "Norway", "back": "Oslo" },
+        { "front": "Argentina", "back": "Buenos Aires" },
+        { "front": "South Korea", "back": "Seoul" },
+        { "front": "Egypt", "back": "Cairo" },
+        { "front": "Switzerland", "back": "Bern" },
+        { "front": "Vietnam", "back": "Hanoi" },
+        { "front": "Nigeria", "back": "Abuja" }
+      ]
+    },
+    {
+      "id": "spanish-basics",
+      "title": "Spanish Basics",
+      "description": "Everyday Spanish words and phrases.",
+      "color": "orange",
+      "cards": [
+        { "front": "Hello", "back": "Hola" },
+        { "front": "Thank you", "back": "Gracias" },
+        { "front": "Please", "back": "Por favor" },
+        { "front": "Good morning", "back": "Buenos días" },
+        { "front": "Goodbye", "back": "Adiós" },
+        { "front": "Water", "back": "Agua" },
+        { "front": "Bread", "back": "Pan" },
+        { "front": "House", "back": "Casa" },
+        { "front": "Friend", "back": "Amigo / Amiga" },
+        { "front": "Book", "back": "Libro" },
+        { "front": "Where is…?", "back": "¿Dónde está…?" },
+        { "front": "How much does it cost?", "back": "¿Cuánto cuesta?" }
+      ]
+    },
+    {
+      "id": "element-symbols",
+      "title": "Element Symbols",
+      "description": "Chemical elements and their periodic-table symbols.",
+      "color": "blue",
+      "cards": [
+        { "front": "Gold", "back": "Au" },
+        { "front": "Silver", "back": "Ag" },
+        { "front": "Iron", "back": "Fe" },
+        { "front": "Sodium", "back": "Na" },
+        { "front": "Potassium", "back": "K" },
+        { "front": "Lead", "back": "Pb" },
+        { "front": "Copper", "back": "Cu" },
+        { "front": "Tin", "back": "Sn" },
+        { "front": "Mercury", "back": "Hg" },
+        { "front": "Tungsten", "back": "W" },
+        { "front": "Helium", "back": "He" },
+        { "front": "Oxygen", "back": "O" }
+      ]
+    }
+  ]
+}
